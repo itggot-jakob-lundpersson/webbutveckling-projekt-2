@@ -1,0 +1,72 @@
+main{
+    
+    display: flex;
+    flex-wrap: wrap;
+    flex-flow: column;
+    align-content: center;
+    h1{
+        display: flex;
+        justify-content: center;
+        color: red;
+        height: 10vh;
+        width: 100vw;
+        margin-bottom: 0;
+    }
+    
+}
+
+.paragraf{
+    margin-left: auto;
+    margin-right: auto;
+    width: 90vw;
+    border: 1px;
+    border-style: solid;
+    border-color: red;
+    p{
+        width: 80vw;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    h2{
+        margin-left: auto;
+        margin-right: auto;
+        width: 80vw;
+    }
+}
+
+.wall{
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 5vh;
+    margin-top: 2vh;
+    background-color: black;
+    height: 1px;
+    width: 90vw;
+    justify-content: center;
+}
+
+.banner{
+    display: flex;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    flex-wrap: wrap;
+    align-self: flex-start;
+    overflow: hidden;
+    justify-content: center;
+    align-content: center;
+    margin-bottom: 5vh;
+    a{
+        width: 80;
+        font-size: 0.5rem;
+        margin: 2px;
+    }
+}
+
+@media only screen and (min-device-width: 1200px) and (min-device-height: 720px) {
+    .banner{
+        a{
+            visibility: hidden;
+        }
+    }
+}
